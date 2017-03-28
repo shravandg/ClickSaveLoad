@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/myIV"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:minWidth="400dp"
+        android:minHeight="400dp"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:text="Capture"
+        android:id="@+id/myB"
+        android:onClick="MyCapture" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="save"
+        android:layout_weight="1"
+        android:id="@+id/myB2"
+        android:onClick="MySave1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Load"
+        android:layout_weight="1"
+        android:id="@+id/myB3"
+        android:onClick="loadImage" /></LinearLayout>
+
+</LinearLayout>
